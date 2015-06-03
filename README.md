@@ -11,8 +11,10 @@ They were. Latest versions of Google Chrome sometimes doesn't show standart tool
 Two steps:
 
 1. Add lines to <head> section of your web-pages:
+```
 <link  type="text/css" rel="stylesheet" href="pathToLibrary/tooltip/tooltip.css" />
 <script type="text/javascript" src="pathToLibrary/tooltip/tooltip.js"></script>
+```
 
 2. Add "rc-title" attribute for elements which is needed to show hints on mouseover. For example:
 ```
